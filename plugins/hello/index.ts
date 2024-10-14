@@ -1,5 +1,5 @@
 console.log("Hello via Bun!");
 
-export default function helloPlugin(params: any) {
+export default async function helloPlugin(params: any) {
     return params
 }
