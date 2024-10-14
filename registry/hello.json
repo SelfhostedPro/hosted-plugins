@@ -3,5 +3,5 @@
     "defaultDir": "hello",
     "subdir": "plugins/hello",
     "url": "https://github.com/SelfhostedPro/hosted-plugins",
-    "tar": "https://codeload.github.com/SelfhostedPro/hosted-plugins/tar.gz/refs/heads/master"
+    "tar": "https://codeload.github.com/SelfhostedPro/hosted-plugins/tar.gz/refs/heads/main"
 }
