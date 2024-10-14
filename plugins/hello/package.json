@@ -3,10 +3,17 @@
   "version": "0.0.1",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@h0st3d/plugin": "link:@h0st3d/plugin",
+    "@h0st3d/types": "link:@h0st3d/types"
   }
 }

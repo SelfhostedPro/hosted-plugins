@@ -1,5 +1,5 @@
-console.log("Hello via Bun!");
+import { H0st3dPlugin } from '@h0st3d/plugin'
 
-export default async function helloPlugin(params: any) {
-    return params
-}
+export default new H0st3dPlugin({
+    name: 'hello',
+});
