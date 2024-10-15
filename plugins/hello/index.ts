@@ -1,5 +1,9 @@
-import { H0st3dPlugin } from '@h0st3d/plugin'
+import { createPlugin } from '@h0st3d/plugin'
 
-export default new H0st3dPlugin({
+
+export default createPlugin({
     name: 'hello',
-});
+    init:() => {
+        console.log('hello initialized')
+    }
+})
