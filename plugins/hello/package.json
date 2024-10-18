@@ -22,13 +22,15 @@
     "@teages/mkdist-vue-loader": "^0.0.1",
     "@types/bun": "latest",
     "unbuild": "^2.0.0",
-    "unplugin-vue": "^5.1.5"
+    "unplugin-vue": "^5.1.5",
+    "vue-tsc": "^2.1.6"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
   },
   "dependencies": {
     "@h0st3d/plugin": "link:@h0st3d/plugin",
-    "@h0st3d/types": "link:@h0st3d/types"
+    "@h0st3d/types": "link:@h0st3d/types",
+    "vue": "^3.5.12"
   }
 }
