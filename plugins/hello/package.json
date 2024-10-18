@@ -1,13 +1,26 @@
 {
   "name": "hello",
   "version": "0.0.1",
-  "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "bun run --watch index.ts"
+    "dev": "bun run --watch index.ts",
+    "build": "unbuild",
+    "prepack": "unbuild"
   },
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "main": "./dist/index.cjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "unbuild": "^2.0.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
