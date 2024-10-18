@@ -19,8 +19,10 @@
     "dist"
   ],
   "devDependencies": {
+    "@teages/mkdist-vue-loader": "^0.0.1",
     "@types/bun": "latest",
-    "unbuild": "^2.0.0"
+    "unbuild": "^2.0.0",
+    "unplugin-vue": "^5.1.5"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
