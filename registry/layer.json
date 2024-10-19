@@ -1,0 +1,7 @@
+{
+    "name": "layer",
+    "defaultDir": "layer",
+    "subdir": "plugins/layer",
+    "url": "https://github.com/SelfhostedPro/hosted-plugins",
+    "tar": "https://codeload.github.com/SelfhostedPro/hosted-plugins/tar.gz/refs/heads/main"
+}
