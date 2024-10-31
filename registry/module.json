@@ -1,0 +1,7 @@
+{
+    "name": "module",
+    "defaultDir": "module",
+    "subdir": "plugins/module",
+    "url": "https://github.com/SelfhostedPro/hosted-plugins",
+    "tar": "https://codeload.github.com/SelfhostedPro/hosted-plugins/tar.gz/refs/heads/main"
+}
