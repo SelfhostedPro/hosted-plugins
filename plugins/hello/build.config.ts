@@ -28,8 +28,8 @@ export default defineBuildConfig({
         },
         {
             builder: "mkdist",
-            input: "./src/api",
-            outDir: "./dist/api",
+            input: "./src/api/",
+            outDir: "./dist/api/",
         }
     ],
     outDir: 'dist',
